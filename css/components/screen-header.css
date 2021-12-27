@@ -1,0 +1,23 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: var(--horizontal-space);
+}
+
+.screen-header__title {
+  font-size: var(--font-medium_large);
+  font-weight: var(--weight-bold);
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.chat-header {
+  margin-bottom: 30px;
+}

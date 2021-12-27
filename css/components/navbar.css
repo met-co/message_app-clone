@@ -1,0 +1,30 @@
+.status-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.navbar__notification {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}

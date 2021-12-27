@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d30ec12680.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Settings - Nature Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <ul class="settings__notice-list">
+        <li>
+          <div class="settings__notice-list-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__notice-list-column"></div>
+        </li>
+        <li>
+          <div class="settings__notice-list-column">
+            <i class="fas fa-flask"></i>
+            <span>Nature Lab</span>
+          </div>
+          <div class="settings__notice-list-column"></div>
+        </li>
+        <li>
+          <div class="settings__notice-list-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__notice-list-column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__btn">
+          <a class="navbar__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="navbar__btn">
+          <a class="navbar__link" href="chat.html">
+            <span class="navbar__notification badge">1</span>
+
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="navbar__btn">
+          <a class="navbar__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="navbar__btn">
+          <a class="navbar__link" href="more.html">
+            <div class="small-badge"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

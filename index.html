@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d30ec12680.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>welcome to Nature Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Nature Talk</h1>
+      <p class="welcome-header__text">
+        if you have a Nature Account, <br />
+        log in with your email or phone number.
+      </p>
+    </header>
+    <form class="login-form" action="friends.html" method="get">
+      <input
+        class="login-form__id"
+        name="username"
+        type="text"
+        placeholder="Email of phone number"
+        required
+      />
+      <input
+        class="login-form__password"
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="3"
+        required
+      />
+      <input class="login-form__submit" type="submit" value="Log in" />
+      <a href="#">Find Nature Talk Account or Password</a>
+    </form>
+  </body>
+</html>

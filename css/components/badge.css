@@ -1,0 +1,43 @@
+.badge {
+  background-color: var(--color-tomato);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+}
+
+.small-badge {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-tomato);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+
+.mini-badge {
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-tomato);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  top: -40%;
+  left: 95%;
+}

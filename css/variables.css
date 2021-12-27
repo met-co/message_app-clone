@@ -1,0 +1,27 @@
+:root {
+  /* Font size */
+  --font-large: 48px;
+  --font-medium_large: 30px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 600;
+  --weight-regular: 400;
+  --weight-thin: 200;
+
+  /* color */
+  --color-green: green;
+  --color-dark_green: rgb(0, 73, 0);
+  --color-white: white;
+  --color-tomato: tomato;
+  --color-light_gray: rgba(0, 0, 0, 0.5);
+
+  /* space */
+  --horizontal-space: 25px;
+
+  /* border */
+  --border-line: 1px solid rgba(0, 0, 0, 0.2);
+}
