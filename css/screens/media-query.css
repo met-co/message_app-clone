@@ -63,6 +63,10 @@
     font-size: 12px;
   }
 
+  .settings__notice-list {
+    margin: 0 10px;
+  }
+
   .settings__notice-list-column {
     font-size: 14px;
   }
