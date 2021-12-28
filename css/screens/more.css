@@ -3,12 +3,12 @@
 }
 
 .more-screen .icon-row:nth-child(3) {
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
-.more-screen .icon-row:nth-child(3) .icon-row__icons:last-child {
+/* .more-screen .icon-row:nth-child(3) .icon-row__icons:last-child {
   margin-left: 35px;
-}
+} */
 
 .more-screen .icon-row .icon-row__icons {
   padding: 0 20px;

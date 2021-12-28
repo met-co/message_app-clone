@@ -19,6 +19,8 @@
 @import "screens/settings.css";
 @import "screens/chatting.css";
 @import "screens/profile.css";
+@import "screens/no-mobile.css";
+@import "screens/media-query.css";
 
 body {
   font-family: "Nunito", sans-serif;
