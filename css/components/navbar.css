@@ -28,3 +28,7 @@
   bottom: 15px;
   left: 15px;
 }
+
+.navbar__btn i {
+  font-size: 27px;
+}

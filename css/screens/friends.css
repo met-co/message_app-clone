@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
   background-color: #fafafa;
-  padding: 15px 0;
-  font-size: var(--font-regular);
+  padding: 12px 0;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 
@@ -44,4 +44,29 @@
   .user-component__column:last-child
   span {
   padding-right: 10px;
+}
+
+@keyframes hideSplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: rgb(26, 66, 26);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: ivory;
+  animation: hideSplashscreen;
+  -webkit-animation: hideSplashscreen 1.5s ease-in-out forwards;
 }
