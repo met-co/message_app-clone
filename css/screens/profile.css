@@ -1,0 +1,71 @@
+.my_profile-screen {
+  min-height: 100vh;
+  background: url(https://images.unsplash.com/photo-1512716679859-da19b4af9c38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)
+    center/cover no-repeat;
+}
+
+.friend_profile-screen {
+  min-height: 100vh;
+  background: url(https://images.unsplash.com/photo-1506543730435-e2c1d4553a84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)
+    center/cover no-repeat;
+}
+
+.friend_profile-screen .profile__content span,
+.friend_profile-screen .profile__bottom-icon {
+  color: #414141;
+}
+
+.back-icon {
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 22px;
+}
+
+.profile__content {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.profile__content img {
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.profile__content span {
+  font-size: 22px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.profile__bottom {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.profile__bottom-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.profile__bottom-icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.profile__bottom-icon span {
+  font-size: 18px;
+}
