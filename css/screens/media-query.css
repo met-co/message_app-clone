@@ -100,9 +100,19 @@
     font-size: 14px;
   }
 
-  .more-screen,
-  .find-screen {
-    height: 150vh;
-    overflow: auto;
+  #more {
+    height: 100vh;
+  }
+
+  #more .status-bar,
+  #more .screen-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+
+  .more-screen {
+    margin-top: 130px;
   }
 }
